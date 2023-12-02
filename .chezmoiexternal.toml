@@ -1,3 +1,10 @@
+[".local/share/zsh/powerlevel10k"]
+    type = "git-repo"
+    url = "https://github.com/romkatv/powerlevel10k.git"
+    exact = true
+    clone.args = ["--depth=1"]
+    refreshPeriod = "168h"
+
 [".local/share/zsh/zsh-syntax-highlighting"]
     type = "archive"
     url = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/master.tar.gz"
@@ -6,12 +13,12 @@
     exclude = ["*/tests", "*/docs", "*/images", "*/*.md", "*/*git*", "*/Makefile"]
     refreshPeriod = "168h"
 
-[".local/share/zsh/powerlevel10k"]
+[".local/share/zsh/zsh-autosuggestions"]
     type = "git-repo"
-    url = "https://github.com/romkatv/powerlevel10k.git"
+    url = "https://github.com/zsh-users/zsh-autosuggestions"
     exact = true
     clone.args = ["--depth=1"]
-    #refreshPeriod = "168h"
+    refreshPeriod = "168h"
 
 [".local/share/zsh/lazyshell/lazyshell.zsh"]
     type = "file"
