@@ -1,0 +1,58 @@
+#!/bin/sh
+# aliasrc	Convenient aliases for aesthetics, efficiency and more.
+
+: '
+                                 Simple Aliases
+'
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias                                                                          \
+    cp="cp -iv"                                                                \
+    mv="mv -iv"                                                                \
+    rm="rm -vI"                                                                \
+    bc="bc -ql"                                                                \
+    rsync="rsync -vrPlu"                                                       \
+    mkdir="mkdir -pv"                                                            \
+
+# Colorize commands when possible.
+alias                                                                          \
+    ls="ls -hN --color=auto --group-directories-first"                         \
+    grep="grep --color=auto"                                                   \
+    diff="diff --color=auto"                                                   \
+    ccat="highlight --out-format=ansi"                                         \
+    ip="ip -color=auto"
+
+# Abbreviate frequently used commands.
+alias                                                                          \
+    e="$EDITOR"                                                                \
+    ls="ls     --color"                                                        \
+    la="ls -a  --color"                                                        \
+    ll="ls -al --color"                                                        \
+    clip="xclip -selection clipboard -i"                                       \
+    get="sudo dnf install"                                                     \
+
+
+# Misc
+alias                                                                          \
+    py="ipython3 --no-banner --no-confirm-exit --nosep --TerminalInteractiveShell.prompts_class=IPython.terminal.prompts.ClassicPrompts" \
+    nova="ssh reemk@nova.cs.tau.ac.il"                                         \
+    bat="bat --paging=never"                                                   \
+    less="bat --paging=always --pager less"                                    \
+
+
+: '
+                                Complex Aliases
+'
+
+se() {  # Script Edit
+    choice="$(find ~/.local/bin -mindepth 1 -printf '%Pn' | fzf)"
+    [ -f "$HOME/.local/bin/$choice" ] && $EDITOR "$HOME/.local/bin/$choice";
+}
+
+# Use neovim for vim if present.
+[ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
+
+# sudo not required for some system commands
+for command in mount umount dnf; do
+    alias $command="sudo $command"
+done; unset command
