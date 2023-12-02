@@ -30,7 +30,7 @@ alias                                                                          \
     ll="ls -al --color"                                                        \
     clip="xclip -selection clipboard -i"                                       \
     get="sudo dnf install"                                                     \
-
+    c=clear
 
 # Misc
 alias                                                                          \
