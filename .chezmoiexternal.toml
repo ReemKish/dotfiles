@@ -2,5 +2,6 @@
     type = "archive"
     url = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/master.tar.gz"
     exact = true
-    stripComponents = 1
+    stripComponents=2
+    exclude = ["tests", "docs", "images", "*.md", "*git*"]
     refreshPeriod = "168h"
