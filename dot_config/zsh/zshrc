@@ -58,4 +58,18 @@ preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
 # Plugins
 source $XDG_DATA_HOME/zsh/lazyshell/lazyshell.zsh
+
+# zsh-autosuggestions
+source $XDG_DATA_HOME/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# zsh-syntax-highlighting
 source $XDG_DATA_HOME/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# zsh-history-substring-search
+source $XDG_DATA_HOME/zsh/zsh-history-substring-search/zsh-history-substring-search.zsh
+    # search history with up/down or j/k (in vi mode)
+    bindkey '^[[A' history-substring-search-up
+    bindkey '^[[B' history-substring-search-down
+    bindkey -M vicmd 'k' history-substring-search-up
+    bindkey -M vicmd 'j' history-substring-search-down
+    export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND=default

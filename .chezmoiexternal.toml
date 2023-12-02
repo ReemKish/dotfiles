@@ -20,6 +20,13 @@
     clone.args = ["--depth=1"]
     refreshPeriod = "168h"
 
+[".local/share/zsh/zsh-history-substring-search"]
+    type = "git-repo"
+    url = "https://github.com/zsh-users/zsh-history-substring-search.git"
+    exact = true
+    clone.args = ["--depth=1"]
+    refreshPeriod = "168h"
+
 [".local/share/zsh/lazyshell/lazyshell.zsh"]
     type = "file"
     url = "https://raw.githubusercontent.com/not-poma/lazyshell/master/lazyshell.zsh"
