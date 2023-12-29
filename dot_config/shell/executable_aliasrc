@@ -12,7 +12,7 @@ alias                                                                          \
     rm="rm -vI"                                                                \
     bc="bc -ql"                                                                \
     rsync="rsync -vrPlu"                                                       \
-    mkdir="mkdir -pv"                                                            \
+    mkdir="mkdir -pv"                                                          \
 
 # Colorize commands when possible.
 alias                                                                          \
@@ -29,7 +29,7 @@ alias                                                                          \
     la="ls -a  --color"                                                        \
     ll="ls -al --color"                                                        \
     clip="xclip -selection clipboard -i"                                       \
-    get="sudo dnf install"                                                     \
+    get="sudo dnf -y install"                                                  \
     c=clear
 
 # Misc
