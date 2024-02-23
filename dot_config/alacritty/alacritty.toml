@@ -1,0 +1,66 @@
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.bright]
+black = "#75715E"
+blue = "#85D3F2"
+cyan = "#A1EFE4"
+green = "#A7DF78"
+magenta = "#AE81FF"
+red = "#F92672"
+white = "#F9F8F5"
+yellow = "#E7C664"
+
+[colors.normal]
+black = "#2C2E34"
+blue = "#76CCE0"
+cyan = "#A1EFE4"
+green = "#9ED072"
+magenta = "#AE81FF"
+red = "#F92672"
+white = "#F8F8F2"
+yellow = "#E7C664"
+
+[colors.primary]
+background = "#2C2E34"
+foreground = "#F5F5F5"
+
+[cursor]
+blink_interval = 350
+thickness = 0.15
+unfocused_hollow = true
+
+[cursor.style]
+blinking = "Always"
+shape = "Beam"
+
+[font]
+size = 11.0
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.offset]
+x = 1
+y = 0
+
+[window]
+decorations = "full"
+opacity = 1
+
+[window.dimensions]
+columns = 80
+lines = 24
+
+[window.padding]
+x = 0
+y = 0
