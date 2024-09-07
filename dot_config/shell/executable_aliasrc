@@ -30,12 +30,13 @@ alias                                                                          \
     ll="ls -al --color"                                                        \
     clip="xclip -selection clipboard -i"                                       \
     get="sudo dnf -y install"                                                  \
-    c=clear
+    c="clear"                                                                   \
+    lg="lazygit"
 
 # Misc
 alias                                                                          \
     py="ipython3 --no-banner --no-confirm-exit --nosep --TerminalInteractiveShell.prompts_class=IPython.terminal.prompts.ClassicPrompts" \
-    nova="ssh reemk@nova.cs.tau.ac.il"                                         \
+    nova="sshpass -p 135EurthoKhRto ssh -o RSAMinSize=1024 reemk@cs.tau.ac.il" \
     bat="bat --paging=never"                                                   \
     less="bat --paging=always --pager less"                                    \
 

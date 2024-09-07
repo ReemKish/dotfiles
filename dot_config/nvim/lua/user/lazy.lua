@@ -1,6 +1,4 @@
 local lazypath = vim.fn.stdpath "data" .. "/lazy/lazy.nvim"
-
--- Install Lazy via git clone if not installed already.
 if not vim.loop.fs_stat(lazypath) then
   vim.fn.system {
     "git",
@@ -16,7 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup {
   spec = LAZY_PLUGIN_SPEC,
   install = {
-    colorscheme = { "primer_dark", "habamax" },
+    colorscheme = { "darkplus", "default" },
   },
   ui = {
     border = "rounded",

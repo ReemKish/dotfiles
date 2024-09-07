@@ -1,5 +1,6 @@
 return {
-  capabilities = {
-      offsetEncoding = 'utf-8'
-  }
+  cmd = {
+    vim.fn.stdpath "data" .. "/mason/bin/clangd",
+    "--offset-encoding=utf-16",
+  },
 }
