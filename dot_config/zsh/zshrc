@@ -58,8 +58,6 @@ echo -ne '\e[5 q' # Use beam shape cursor on startup.
 preexec() { echo -ne '\e[5 q' ;} # Use beam shape cursor for each new prompt.
 
 # Plugins
-# Lazyshell
-source $XDG_DATA_HOME/zsh/lazyshell/lazyshell.zsh
 
 # zsh-autosuggestions
 source $XDG_DATA_HOME/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
