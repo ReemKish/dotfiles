@@ -1,9 +1,4 @@
 #!/bin/sh
-# env	Runs on every shell invocation. Environmental variables are set here.
-
-# Add all directories in `~/.local/bin` to $PATH
-export PATH="$PATH:$(find ~/.local/bin -type d | paste -sd ':' -)"
-
 # Default programs:
 export EDITOR="nvim"
 export TERMINAL="alacritty"
@@ -29,9 +24,14 @@ export ANSIBLE_CONFIG="$XDG_CONFIG_HOME/ansible/ansible.cfg"
 export UNISON="$XDG_DATA_HOME/unison"
 export HISTFILE="$XDG_DATA_HOME/history"
 export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
-export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
 export SQLITE_HISTORY="$XDG_DATA_HOME/sqlite_history"
 
 # Other program settings:
 export MOZ_USE_XINPUT2=1                  # Mozilla smooth scrolling/touchpads.
 export GITHUB_USERNAME="ReemKish"
+
+# env	Runs on every shell invocation. Environmental variables are set here.
+# Add all directories in `~/.local/bin` and `/opt/*/bin` to $PATH
+export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:$(find ~/.local/bin -type d | paste -sd ':' -)"
+export PATH="$PATH:$(find /opt/*/bin -type d 2>/dev/null | paste -sd ':' -)"
