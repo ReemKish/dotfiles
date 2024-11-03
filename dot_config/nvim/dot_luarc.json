@@ -1,0 +1,23 @@
+{
+    "diagnostics.disable": [
+        "missing-parameter",
+        "unused-local"
+    ],
+    "diagnostics.globals": [
+        "vim",
+        "package",
+        "table",
+        "_G",
+        "string",
+        "pairs",
+        "print",
+        "ipairs",
+        "require",
+        "pcall",
+        "setmetatable",
+        "MiniVisits",
+        "MiniClue",
+        "MiniAnimate",
+        "MiniStatusline"
+    ]
+}
