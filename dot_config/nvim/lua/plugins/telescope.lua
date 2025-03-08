@@ -1,5 +1,6 @@
 return {
   "nvim-telescope/telescope.nvim",
+  enabled=false,
   cmd = "Telescope",
   tag = "0.1.8",
   keys = {

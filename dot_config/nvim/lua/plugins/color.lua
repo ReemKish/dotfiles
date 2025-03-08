@@ -3,11 +3,7 @@ return {
     "navarasu/onedark.nvim",
     lazy = false, -- make sure we load this during startup
     priority = 1000, -- make sure to load this before all the other start plugins
-    opts = { style = "darker", transparent = true },
-    config = function(_, opts)
-      require("onedark").setup(opts)
-      require("onedark").load()
-    end,
+    opts = { style = "darker" },
   },
 
   {
@@ -21,6 +17,9 @@ return {
     lazy = false, -- make sure we load this during startup
     priority = 1000, -- make sure to load this before all the other start plugins
     opts = {},
+    config = function (_, opts)
+      vim.cmd[[colorscheme tokyonight-moon]]
+    end
   },
   {
     "catppuccin/nvim",

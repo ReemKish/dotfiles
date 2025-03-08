@@ -60,9 +60,6 @@ keymap("n", "X", vim.diagnostic.open_float)
 keymap("v", "<", "<gv")
 keymap("v", ">", ">gv")
 
--- jk to exit insert mode
-keymap("i", "jk", "<ESC>", {})
-
 -- Don't override the yank register when pasting over selected text.
 keymap("x", "p", [["_dP]])
 

@@ -23,6 +23,11 @@ keymap("n", "<C-tab>", ":NavigatorPrevious<CR>", opts)
 keymap({"n", "i"}, "<C-s>", "<ESC>:confirm w<CR>", opts)  -- save
 keymap({"n", "i"}, "<C-q>", "<ESC>:confirm q<CR>", opts)  -- quit
 
+-- Silent undo and redo
+-- keymap('n', 'u', '<CMD>silent undo<CR>', opts)  -- save
+-- keymap('n', 'u', '<CMD>silent undo<CR>', opts)  -- save
+-- keymap('n', '<C-r>', '<CMD>:confirm q<CR>', opts)  -- quit
+
 -- Show pattern matches in the middle of the screen.
 keymap("n", "n", "nzz", opts)
 keymap("n", "N", "Nzz", opts)

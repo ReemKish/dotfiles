@@ -18,6 +18,7 @@
         "MiniVisits",
         "MiniClue",
         "MiniAnimate",
-        "MiniStatusline"
+        "MiniStatusline",
+        "Snacks"
     ]
 }

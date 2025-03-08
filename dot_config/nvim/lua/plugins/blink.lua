@@ -2,81 +2,72 @@ return {
   "Saghen/blink.cmp",
   config = true,
   -- use a release tag to download pre-built binaries
-  version = "v0.*",
+  version = "*",
 
-  ---@module 'blink.cmp'
-  ---@type blink.cmp.Config
+  --@module 'blink.cmp'
+  --@type blink.cmp.Config
   opts = {
+    enabled = function()
+      return not vim.tbl_contains({ "markdown" }, vim.bo.filetype)
+        and vim.bo.buftype ~= 'prompt'
+        and vim.b.completion ~= false
+    end,
     keymap = {
-      ["<C-space>"] = { "show", "show_documentation", "hide_documentation" },
-      ["<C-e>"] = { "hide" },
-      ["<Tab>"] = {
-        function(cmp)
-          if cmp.is_in_snippet() then
-            return cmp.accept()
-          else
-            return cmp.select_and_accept()
+      preset = "super-tab",
+      ["<C-p>"] = {},
+      ["<C-n>"] = {},
+      ["<C-j>"] = { "select_next", "fallback" },
+      ["<C-k>"] = { "select_prev", "fallback" },
+    },
+
+    completion = {
+      accept = { auto_brackets = { enabled = false } },
+      menu = {
+        draw = {
+          components = {
+            kind_icon = {
+              ellipsis = false,
+              text = function(ctx)
+                local kind_icon, _, _ = require("mini.icons").get("lsp", ctx.kind)
+                return kind_icon
+              end,
+              highlight = function(ctx)
+                local _, hl, _ = require("mini.icons").get("lsp", ctx.kind)
+                return hl
+              end,
+            },
+          },
+        },
+      },
+      trigger = {
+        show_on_blocked_trigger_characters = function()
+          if vim.api.nvim_get_mode().mode == "c" then
+            return {}
           end
+          return { " ", "\n", "\t", ",", "{" }
         end,
-        "snippet_forward",
-        "fallback",
-      },
-      ["<S-Tab>"] = { "snippet_backward", "fallback" },
-      ["<Up>"] = { "select_prev" },
-      ["<Down>"] = { "select_next" },
-      ["<C-j>"] = { "select_next" },
-      ["<C-k>"] = { "select_prev" },
-    },
-
-    accept = {
-      auto_brackets = {
-        enabled = false,
       },
     },
 
-    trigger = {
-      completion = {
-        show_in_snippet = false, -- when false, will not show the completion window when in a snippet
-        blocked_trigger_characters = { " ", "\n", "\t", ",", "{" },
-      },
+    sources = {
+      min_keyword_length = function()
+        return vim.bo.filetype == "markdown" and 3 or 0
+      end,
     },
 
-    signature_help = {
+    signature = {
       enabled = true,
+      window = {
+        border = "single",
+      },
     },
 
     fuzzy = {
       use_frecency = true, -- frencency tracks the most recently/frequently used items and boosts the score of the item
       use_proximity = true, -- proximity bonus boosts the score of items with a value in the buffer
     },
-
-    sources = {
-      snippets = {
-        opts = {
-          score_offset = -1, -- The default is -3 which pushes snippet completions to bottom of the list.
-        },
-      },
-    },
-
-    windows = {
-      autocomplete = {},
-      documentation = {
-        auto_show = false,
-      },
-      signature_help = {
-        border = "double",
-      },
-    },
-
-    highlight = {
-      -- sets the fallback highlight groups to nvim-cmp's highlight groups
-      -- useful for when your theme doesn't support blink.cmp
-      -- will be removed in a future release, assuming themes add support
+    appearance = {
       use_nvim_cmp_as_default = true,
     },
-
-    -- set to 'mono' for 'Nerd Font Mono' or 'normal' for 'Nerd Font'
-    -- adjusts spacing to ensure icons are aligned
-    nerd_font_variant = "mono",
   },
 }
