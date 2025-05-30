@@ -6,7 +6,8 @@ import = [
   # "~/.config/alacritty/colors/catppuccin-macchiato.toml"
   # "~/.config/alacritty/colors/catppuccin-mocha.toml"
   # "~/.config/alacritty/colors/monokai-charcoal.toml"
-  "~/.config/alacritty/colors/onedark.toml"
+  # "~/.config/alacritty/colors/onedark.toml"
+  "~/.config/alacritty/colors/kanagawa_darkwave.toml"
 ]
 
 [env]
