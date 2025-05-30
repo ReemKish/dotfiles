@@ -1,5 +1,6 @@
-require "config.setup"
-require "config.settings"
+_G.Util = require('util')
+
+require "config.options"
 require "config.leadermaps"
 require "config.autocmds"
 require "config.keymaps"

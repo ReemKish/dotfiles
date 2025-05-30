@@ -1,7 +1,6 @@
 return {
   "Saghen/blink.cmp",
   config = true,
-  -- use a release tag to download pre-built binaries
   version = "*",
 
   --@module 'blink.cmp'
@@ -24,6 +23,7 @@ return {
       accept = { auto_brackets = { enabled = false } },
       menu = {
         draw = {
+          treesitter = { "lsp" },
           components = {
             kind_icon = {
               ellipsis = false,

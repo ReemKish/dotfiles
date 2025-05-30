@@ -12,12 +12,12 @@ return {
       --
       -- See `:h MiniBracketed.config` for more info.
 
-      buffer      = { suffix = "b", options = {} },
+      -- buffer      = { suffix = "b", options = {} },
       conflict    = { suffix = "x", options = {} },
-      diagnostic  = { suffix = "d", options = {} },
+      -- diagnostic  = { suffix = "d", options = {} },
       jump        = { suffix = "j", options = {} },
-      location    = { suffix = "l", options = {} },
-      quickfix    = { suffix = "q", options = {} },
+      -- location    = { suffix = "l", options = {} },
+      -- quickfix    = { suffix = "q", options = {} },
       comment     = { suffix = "",  options = {} },
       file        = { suffix = "",  options = {} },
       indent      = { suffix = "",  options = {} },

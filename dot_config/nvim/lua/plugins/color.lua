@@ -4,8 +4,43 @@ return {
     lazy = false, -- make sure we load this during startup
     priority = 1000, -- make sure to load this before all the other start plugins
     opts = { style = "darker" },
+    config = function() end,
   },
-
+  {
+    "rebelot/kanagawa.nvim",
+    lazy = false, -- make sure we load this during startup
+    priority = 1000, -- make sure to load this before all the other start plugins
+    opts = {
+      colors = {
+        theme = {
+          wave = {
+            ui = {
+              bg_m3      = "#0d0c0c",
+              bg_m2      = "#12120f",
+              bg_m1      = "#1D1C19",
+              bg         = "#181616",
+              bg_p1      = "#282727",
+              bg_p2      = "#393836",
+            }
+          },
+          all = {
+            ui = {
+              bg_gutter = "none"
+            }
+          }
+        }
+      },
+      overrides = function(colors)
+        return {
+          SnacksIndent = { fg = colors.palette.sumiInk5, italic = true },
+        }
+      end,
+    },
+    config = function(_, opts)
+      require('kanagawa').setup(opts)
+      vim.cmd[[colorscheme kanagawa-wave]]
+    end,
+  },
   {
     "sainnhe/sonokai",
     lazy = false, -- make sure we load this during startup
@@ -17,9 +52,7 @@ return {
     lazy = false, -- make sure we load this during startup
     priority = 1000, -- make sure to load this before all the other start plugins
     opts = {},
-    config = function (_, opts)
-      vim.cmd[[colorscheme tokyonight-moon]]
-    end
+    config = function() end,
   },
   {
     "catppuccin/nvim",

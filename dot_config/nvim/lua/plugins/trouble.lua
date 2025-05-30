@@ -34,4 +34,13 @@ return {
       desc = "Quickfix List (Trouble)",
     },
   },
+  dependencies = {
+    "folke/which-key.nvim",
+    optional = true,
+    opts = {
+      defaults = {
+        ["<leader>x"] = { name = "+Trouble"}
+      }
+    }
+  }
 }

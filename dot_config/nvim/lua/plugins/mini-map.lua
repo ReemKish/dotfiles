@@ -2,7 +2,6 @@ return {
   'echasnovski/mini.map',
   opts = {},
   keys = {
-    { [[<LEADER>m]],  '',                                     desc = '+Map' },
     { [[<LEADER>mc]], '<CMD>lua MiniMap.close()<CR>',         desc = 'Close' },
     { [[<LEADER>mf]], '<CMD>lua MiniMap.toggle_focus()<CR>',  desc = 'Focus (toggle)' },
     { [[<LEADER>mo]], '<CMD>lua MiniMap.open()<CR>',          desc = 'Open' },

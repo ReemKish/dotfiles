@@ -3,7 +3,6 @@ return {
     "nvim-neotest/neotest",
     -- stylua: ignore
     keys = {
-      { [[<LEADER>t]],  "",                                                           desc = "+Test"                },
       { [[<LEADER>tt]], function() require'neotest'.run.run()                   end,  desc = "Test Nearest"         },
       { [[<LEADER>tf]], function() require'neotest'.run.run(vim.fn.expand('%')) end,  desc = "Test File"            },
       { [[<LEADER>tS]], function() require'neotest'.run.stop()                  end,  desc = "Stop Test"            },

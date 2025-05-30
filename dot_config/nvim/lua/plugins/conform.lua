@@ -2,7 +2,7 @@ return {
   "stevearc/conform.nvim",
   keys = {
     {
-      "<LEADER>lf",
+      "<LEADER>cf",
       '<Cmd>lua require("conform").format({ lsp_fallback = true })<CR>',
       mode = "n",
       desc = "Format",
