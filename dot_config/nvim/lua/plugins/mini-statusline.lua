@@ -1,40 +1,50 @@
 return {
   "echasnovski/mini.statusline",
+  version = "*",
   opts = function()
-    local a = function()
-      local mode, mode_hl = MiniStatusline.section_mode({ trunc_width = 120 })
-      local git = MiniStatusline.section_git({ trunc_width = 40 })
-      local diff = MiniStatusline.section_diff({ trunc_width = 75 })
-      local diagnostics = MiniStatusline.section_diagnostics({ trunc_width = 75 })
-      local filename = MiniStatusline.section_filename({ trunc_width = 140 })
-      local fileinfo = MiniStatusline.section_fileinfo({ trunc_width = 120 })
-      local location = MiniStatusline.section_location({ trunc_width = 75 })
-      local search = MiniStatusline.section_searchcount({ trunc_width = 75 })
+    local TRUNCATE = math.huge
+    -- stylua: ignore start
+    vim.api.nvim_set_hl(0, 'MiniStatuslineModeNormalAlt',  {fg = vim.api.nvim_get_hl(0, {name = "MiniStatuslineModeNormal"}).bg})
+    vim.api.nvim_set_hl(0, 'MiniStatuslineModeInsertAlt',  {fg = vim.api.nvim_get_hl(0, {name = "MiniStatuslineModeInsert"}).bg})
+    vim.api.nvim_set_hl(0, 'MiniStatuslineModeVisualAlt',  {fg = vim.api.nvim_get_hl(0, {name = "MiniStatuslineModeVisual"}).bg})
+    vim.api.nvim_set_hl(0, 'MiniStatuslineModeReplaceAlt', {fg = vim.api.nvim_get_hl(0, {name = "MiniStatuslineModeReplace"}).bg})
+    vim.api.nvim_set_hl(0, 'MiniStatuslineModeCommandAlt', {fg = vim.api.nvim_get_hl(0, {name = "MiniStatuslineModeCommand"}).bg})
+    vim.api.nvim_set_hl(0, 'MiniStatuslineModeOtherAlt',   {fg = vim.api.nvim_get_hl(0, {name = "MiniStatuslineModeOther"}).bg})
+    -- stylua: ignore end
 
-      return MiniStatusline.combine_groups({
-        { hl = mode_hl, strings = { mode } },
-        -- { hl = "MiniStatuslineDevinfo", strings = { git, diff, diagnostics, lsp } },
-        { hl = "MiniStatuslineDevinfo", strings = { git, diagnostics } },
-        "%<", -- Mark general truncate point
-        { hl = "MiniStatuslineFilename", strings = { filename } },
-        "%=", -- End left alignment
-        { hl = "MiniStatuslineFileinfo", strings = { fileinfo } },
-        { hl = mode_hl, strings = { location } },
-      })
-    end
     return {
-      -- Content of statusline as functions which return statusline string. See
-      -- `:h statusline` and code of default contents (used instead of `nil`).
       content = {
-        active = a,
-        inactive = nil,
+        active = function()
+
+          -- stylua: ignore start
+          local mode, mode_hl   = MiniStatusline.section_mode({ trunc_width = TRUNCATE })
+          local git             = MiniStatusline.section_git({ trunc_width = 40, icon = '' })
+          local diagnostics     = Util.statusline.section_diagnostics(MiniStatusline.section_diagnostics({ icon = "" }))
+          local icon, icon_hl   = Util.statusline.section_icon()
+          local fname, fname_hl = Util.statusline.section_filename()
+          local diff            = Util.statusline.section_diff(MiniStatusline.section_diff({ icon = "" }))
+          local recording       = Util.statusline.section_recording()
+          local fileinfo        = MiniStatusline.section_fileinfo({ trunc_width = TRUNCATE })
+          local location        = MiniStatusline.section_location({ trunc_width = TRUNCATE })
+          local search          = MiniStatusline.section_searchcount({ trunc_width = 0 })
+          -- stylua: ignore end
+
+          local mode_alt_hl = mode_hl .. "Alt"
+
+          return MiniStatusline.combine_groups({
+            { hl = mode_hl, strings = { mode } },
+            { hl = mode_alt_hl, strings = { git } },
+            { hl = icon_hl, strings = { icon } },
+            { hl = fname_hl, strings = { fname } },
+            diagnostics,
+            "%=", -- End left alignment
+            { hl = "MatchParen", strings = { recording } },
+            diff,
+            { hl = mode_alt_hl, strings = { fileinfo } },
+            { strings = { search, location } },
+          })
+        end,
       },
-
-      -- Whether to use icons by default
-      use_icons = true,
-
-      -- Whether to set Vim's settings for statusline (make it always shown)
-      set_vim_settings = true,
     }
   end,
 }

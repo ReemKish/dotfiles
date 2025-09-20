@@ -8,7 +8,7 @@ return {
   opts = {
     enabled = function()
       return not vim.tbl_contains({ "markdown" }, vim.bo.filetype)
-        and vim.bo.buftype ~= 'prompt'
+        and vim.bo.buftype ~= "prompt"
         and vim.b.completion ~= false
     end,
     keymap = {
@@ -62,9 +62,14 @@ return {
       },
     },
 
+    cmdline = {
+      keymap = { preset = 'inherit' },
+      completion = { menu = { auto_show = true } },
+    },
+
     fuzzy = {
-      use_frecency = true, -- frencency tracks the most recently/frequently used items and boosts the score of the item
       use_proximity = true, -- proximity bonus boosts the score of items with a value in the buffer
+      frecency = { enabled = true },
     },
     appearance = {
       use_nvim_cmp_as_default = true,

@@ -28,5 +28,5 @@ return {
         }):map("<leader>uo")
       end
     })
-  end
+  end,
 }

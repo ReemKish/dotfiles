@@ -1,0 +1,19 @@
+0000000000000000000000000000000000000000 0235c4b5f2d44c2e2fe025dc996dd79c68c73c84 Re'em Kishinevsky <Re'em Kishinevsky> 1712352335 +0300	clone: from github.com:ReemKish/nvim-config.git
+0235c4b5f2d44c2e2fe025dc996dd79c68c73c84 bf4a2a63bae0f3c7f3667a1e5d9c9a2218414ad0 Re'em Kishinevsky <Re'em Kishinevsky> 1712419664 +0300	commit: Neotest: Added nvim-nio dependency and removed bloat
+bf4a2a63bae0f3c7f3667a1e5d9c9a2218414ad0 7b5b365728039a4596a24ea842101a55bace08a0 Re'em Kishinevsky <Re'em Kishinevsky> 1712419717 +0300	commit: Tweaked keymaps
+7b5b365728039a4596a24ea842101a55bace08a0 48a179bb3763d0f49dddfa13500f98c820c7aa63 Re'em Kishinevsky <Re'em Kishinevsky> 1712419848 +0300	commit: Now using cellular automaton
+48a179bb3763d0f49dddfa13500f98c820c7aa63 221a998ed7fbaf0c58a2896235db8e52c83962e8 Re'em Kishinevsky <Re'em Kishinevsky> 1712420090 +0300	commit: Sorted specs
+221a998ed7fbaf0c58a2896235db8e52c83962e8 e0441040a30f2bc2d1540989aafbe8c2c2bc4b66 Re'em Kishinevsky <Re'em Kishinevsky> 1712420114 +0300	commit: Now using Copilot
+e0441040a30f2bc2d1540989aafbe8c2c2bc4b66 6cb5e2d91db129440b57899b24ddab18b439413d Re'em Kishinevsky <Re'em Kishinevsky> 1712420129 +0300	commit: Changed colorscheme to Sonokai
+6cb5e2d91db129440b57899b24ddab18b439413d 1d0c3f70ff75ae5924b5ff8f096f9a6ae1520b3e Re'em Kishinevsky <Re'em Kishinevsky> 1712420144 +0300	commit: Use Oil and Eyeliner
+1d0c3f70ff75ae5924b5ff8f096f9a6ae1520b3e d8bc738196cd2c0e3e542777cb90c8cc37e8db55 Re'em Kishinevsky <Re'em Kishinevsky> 1712420152 +0300	commit: Added Navigator
+d8bc738196cd2c0e3e542777cb90c8cc37e8db55 e3daf3789bfa6e474de21dfdd2aeb5a3fa4ea749 Re'em Kishinevsky <Re'em Kishinevsky> 1712424082 +0300	commit: Load colorscheme before any other plugin
+e3daf3789bfa6e474de21dfdd2aeb5a3fa4ea749 17aabfb273239014f9e66de4e757c5059ac651f0 Re'em Kishinevsky <Re'em Kishinevsky> 1712424097 +0300	commit: Swap Neogit for Lazygit
+17aabfb273239014f9e66de4e757c5059ac651f0 b9f14b103132fb6522b4dfe1d36dbdf3f6c4e12f Re'em Kishinevsky <Re'em Kishinevsky> 1726428415 +0300	commit: use Down/Up in copilot instead of c-j/c-k
+b9f14b103132fb6522b4dfe1d36dbdf3f6c4e12f 4764b439fd5cb97fd41458b04bd142b05b267e01 Re'em Kishinevsky <Re'em Kishinevsky> 1726428434 +0300	commit: clangd
+4764b439fd5cb97fd41458b04bd142b05b267e01 1f54965f3c03af045ab1889e49a9554126a3a59f Re'em Kishinevsky <Re'em Kishinevsky> 1726428445 +0300	commit: fix inlay_hints bug
+1f54965f3c03af045ab1889e49a9554126a3a59f 4633ed97c2da4a3c7a3c99339dd7939e16408a39 Re'em Kishinevsky <Re'em Kishinevsky> 1726428450 +0300	commit: update servers
+4633ed97c2da4a3c7a3c99339dd7939e16408a39 bd56301f2a5e5a2e72e5933e72977ec9fbfbf3bf Re'em Kishinevsky <Re'em Kishinevsky> 1726428467 +0300	commit: prefer .venv flake8
+bd56301f2a5e5a2e72e5933e72977ec9fbfbf3bf 2db923cd51fb56e3c370ed4f23eb8abb9b3d967e Re'em Kishinevsky <Re'em Kishinevsky> 1726428484 +0300	commit: search buffers with <leader>b
+2db923cd51fb56e3c370ed4f23eb8abb9b3d967e ce2d4e342f6304b410ff685bef40043bce0b7f28 Re'em Kishinevsky <Re'em Kishinevsky> 1726428504 +0300	commit: use navbuddy
+ce2d4e342f6304b410ff685bef40043bce0b7f28 fca0bb4c47bb107be0a032b0fabd2eb356d6badd Re'em Kishinevsky <Re'em Kishinevsky> 1726511627 +0300	commit: fix gitsigns

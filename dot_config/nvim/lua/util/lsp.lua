@@ -1,6 +1,6 @@
 M = {}
 
-M.select_code_action = function()
+M.code_action = function()
   vim.lsp.buf.code_action {
     filter = function(codeaction)
       local ok, disabled_codeactions = pcall(vim.api.nvim_buf_get_var, 0, "disabled_codeactions")

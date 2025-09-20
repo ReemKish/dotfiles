@@ -1,0 +1,149 @@
+0000000000000000000000000000000000000000 0235c4b5f2d44c2e2fe025dc996dd79c68c73c84 Re'em Kishinevsky <Re'em Kishinevsky> 1712352335 +0300	clone: from github.com:ReemKish/nvim-config.git
+0235c4b5f2d44c2e2fe025dc996dd79c68c73c84 bf4a2a63bae0f3c7f3667a1e5d9c9a2218414ad0 Re'em Kishinevsky <Re'em Kishinevsky> 1712419664 +0300	commit: Neotest: Added nvim-nio dependency and removed bloat
+bf4a2a63bae0f3c7f3667a1e5d9c9a2218414ad0 7b5b365728039a4596a24ea842101a55bace08a0 Re'em Kishinevsky <Re'em Kishinevsky> 1712419717 +0300	commit: Tweaked keymaps
+7b5b365728039a4596a24ea842101a55bace08a0 48a179bb3763d0f49dddfa13500f98c820c7aa63 Re'em Kishinevsky <Re'em Kishinevsky> 1712419848 +0300	commit: Now using cellular automaton
+48a179bb3763d0f49dddfa13500f98c820c7aa63 48a179bb3763d0f49dddfa13500f98c820c7aa63 Re'em Kishinevsky <Re'em Kishinevsky> 1712420031 +0300	reset: moving to HEAD
+48a179bb3763d0f49dddfa13500f98c820c7aa63 221a998ed7fbaf0c58a2896235db8e52c83962e8 Re'em Kishinevsky <Re'em Kishinevsky> 1712420090 +0300	commit: Sorted specs
+221a998ed7fbaf0c58a2896235db8e52c83962e8 e0441040a30f2bc2d1540989aafbe8c2c2bc4b66 Re'em Kishinevsky <Re'em Kishinevsky> 1712420114 +0300	commit: Now using Copilot
+e0441040a30f2bc2d1540989aafbe8c2c2bc4b66 6cb5e2d91db129440b57899b24ddab18b439413d Re'em Kishinevsky <Re'em Kishinevsky> 1712420129 +0300	commit: Changed colorscheme to Sonokai
+6cb5e2d91db129440b57899b24ddab18b439413d 1d0c3f70ff75ae5924b5ff8f096f9a6ae1520b3e Re'em Kishinevsky <Re'em Kishinevsky> 1712420144 +0300	commit: Use Oil and Eyeliner
+1d0c3f70ff75ae5924b5ff8f096f9a6ae1520b3e d8bc738196cd2c0e3e542777cb90c8cc37e8db55 Re'em Kishinevsky <Re'em Kishinevsky> 1712420152 +0300	commit: Added Navigator
+d8bc738196cd2c0e3e542777cb90c8cc37e8db55 e3daf3789bfa6e474de21dfdd2aeb5a3fa4ea749 Re'em Kishinevsky <Re'em Kishinevsky> 1712424082 +0300	commit: Load colorscheme before any other plugin
+e3daf3789bfa6e474de21dfdd2aeb5a3fa4ea749 17aabfb273239014f9e66de4e757c5059ac651f0 Re'em Kishinevsky <Re'em Kishinevsky> 1712424097 +0300	commit: Swap Neogit for Lazygit
+17aabfb273239014f9e66de4e757c5059ac651f0 b9f14b103132fb6522b4dfe1d36dbdf3f6c4e12f Re'em Kishinevsky <Re'em Kishinevsky> 1726428415 +0300	commit: use Down/Up in copilot instead of c-j/c-k
+b9f14b103132fb6522b4dfe1d36dbdf3f6c4e12f 4764b439fd5cb97fd41458b04bd142b05b267e01 Re'em Kishinevsky <Re'em Kishinevsky> 1726428434 +0300	commit: clangd
+4764b439fd5cb97fd41458b04bd142b05b267e01 1f54965f3c03af045ab1889e49a9554126a3a59f Re'em Kishinevsky <Re'em Kishinevsky> 1726428445 +0300	commit: fix inlay_hints bug
+1f54965f3c03af045ab1889e49a9554126a3a59f 4633ed97c2da4a3c7a3c99339dd7939e16408a39 Re'em Kishinevsky <Re'em Kishinevsky> 1726428450 +0300	commit: update servers
+4633ed97c2da4a3c7a3c99339dd7939e16408a39 bd56301f2a5e5a2e72e5933e72977ec9fbfbf3bf Re'em Kishinevsky <Re'em Kishinevsky> 1726428467 +0300	commit: prefer .venv flake8
+bd56301f2a5e5a2e72e5933e72977ec9fbfbf3bf 2db923cd51fb56e3c370ed4f23eb8abb9b3d967e Re'em Kishinevsky <Re'em Kishinevsky> 1726428484 +0300	commit: search buffers with <leader>b
+2db923cd51fb56e3c370ed4f23eb8abb9b3d967e ce2d4e342f6304b410ff685bef40043bce0b7f28 Re'em Kishinevsky <Re'em Kishinevsky> 1726428504 +0300	commit: use navbuddy
+ce2d4e342f6304b410ff685bef40043bce0b7f28 fca0bb4c47bb107be0a032b0fabd2eb356d6badd Re'em Kishinevsky <Re'em Kishinevsky> 1726511627 +0300	commit: fix gitsigns
+fca0bb4c47bb107be0a032b0fabd2eb356d6badd fca0bb4c47bb107be0a032b0fabd2eb356d6badd Re'em Kishinevsky <Re'em Kishinevsky> 1726511677 +0300	checkout: moving from master to mini
+fca0bb4c47bb107be0a032b0fabd2eb356d6badd e01814b8ce1107bfe877afb9a73ef4f2c7d06584 Re'em Kishinevsky <Re'em Kishinevsky> 1728749811 +0300	commit: bump
+e01814b8ce1107bfe877afb9a73ef4f2c7d06584 612f432864754a5e92d06f40eca9e260e627db71 Re'em Kishinevsky <Re'em Kishinevsky> 1728861874 +0300	commit: bump
+612f432864754a5e92d06f40eca9e260e627db71 fca0bb4c47bb107be0a032b0fabd2eb356d6badd Re'em Kishinevsky <Re'em Kishinevsky> 1728861892 +0300	checkout: moving from mini to master
+fca0bb4c47bb107be0a032b0fabd2eb356d6badd fca0bb4c47bb107be0a032b0fabd2eb356d6badd git stash <Re'em Kishinevsky> 1728861910 +0300	reset: moving to HEAD
+fca0bb4c47bb107be0a032b0fabd2eb356d6badd 612f432864754a5e92d06f40eca9e260e627db71 Re'em Kishinevsky <Re'em Kishinevsky> 1728861910 +0300	checkout: moving from master to mini
+612f432864754a5e92d06f40eca9e260e627db71 fca0bb4c47bb107be0a032b0fabd2eb356d6badd Re'em Kishinevsky <Re'em Kishinevsky> 1728861981 +0300	checkout: moving from mini to master
+fca0bb4c47bb107be0a032b0fabd2eb356d6badd 612f432864754a5e92d06f40eca9e260e627db71 Re'em Kishinevsky <Re'em Kishinevsky> 1728861983 +0300	checkout: moving from master to mini
+612f432864754a5e92d06f40eca9e260e627db71 bf2a03ac12cd7edca93396967029bd3e34c6a8dd Re'em Kishinevsky <Re'em Kishinevsky> 1728862491 +0300	commit: add after
+bf2a03ac12cd7edca93396967029bd3e34c6a8dd 0a579764fc9a9a07864943015451d16fc9db7e6b Re'em Kishinevsky <Re'em Kishinevsky> 1728862499 +0300	commit: add config
+0a579764fc9a9a07864943015451d16fc9db7e6b c98ddda2968949d99f6815ef71ea47c9e8f30b89 Re'em Kishinevsky <Re'em Kishinevsky> 1728862504 +0300	commit: add lspsettings
+c98ddda2968949d99f6815ef71ea47c9e8f30b89 30f81f1dc825a41dc350ecea4918b40e9f31c1e5 Re'em Kishinevsky <Re'em Kishinevsky> 1728862507 +0300	commit: add misc
+30f81f1dc825a41dc350ecea4918b40e9f31c1e5 5ccb742b3c9dafbfceb1009f50cfab8ba54e8ed2 Re'em Kishinevsky <Re'em Kishinevsky> 1728862520 +0300	commit: add plugins
+5ccb742b3c9dafbfceb1009f50cfab8ba54e8ed2 558c9e0efb4fd9b7c90cef1a589743c6cdc83cd8 Re'em Kishinevsky <Re'em Kishinevsky> 1728862531 +0300	commit: remove junk
+558c9e0efb4fd9b7c90cef1a589743c6cdc83cd8 fca0bb4c47bb107be0a032b0fabd2eb356d6badd Re'em Kishinevsky <Re'em Kishinevsky> 1728862572 +0300	checkout: moving from mini to master
+fca0bb4c47bb107be0a032b0fabd2eb356d6badd 558c9e0efb4fd9b7c90cef1a589743c6cdc83cd8 Re'em Kishinevsky <Re'em Kishinevsky> 1728862788 +0300	checkout: moving from master to mini
+558c9e0efb4fd9b7c90cef1a589743c6cdc83cd8 fca0bb4c47bb107be0a032b0fabd2eb356d6badd Re'em Kishinevsky <Re'em Kishinevsky> 1728862806 +0300	checkout: moving from mini to master
+fca0bb4c47bb107be0a032b0fabd2eb356d6badd 558c9e0efb4fd9b7c90cef1a589743c6cdc83cd8 Re'em Kishinevsky <Re'em Kishinevsky> 1728862818 +0300	checkout: moving from master to mini
+558c9e0efb4fd9b7c90cef1a589743c6cdc83cd8 a4ef57f981f8f44b3d5c601dc9df7831f69d8ded Re'em Kishinevsky <Re'em Kishinevsky> 1729162870 +0300	commit: remove unsued ftplugins; tweak python ftplugin
+a4ef57f981f8f44b3d5c601dc9df7831f69d8ded a4ef57f981f8f44b3d5c601dc9df7831f69d8ded Re'em Kishinevsky <Re'em Kishinevsky> 1729162882 +0300	checkout: moving from mini to dev
+a4ef57f981f8f44b3d5c601dc9df7831f69d8ded 8e07f40772d74222274468ab6c9014364e9f2b46 Re'em Kishinevsky <Re'em Kishinevsky> 1729162898 +0300	commit: activate bashls on .zsh files
+8e07f40772d74222274468ab6c9014364e9f2b46 7f19e7695fb12788ab0055c36538ea78de6c20a9 Re'em Kishinevsky <Re'em Kishinevsky> 1729162923 +0300	commit: add make, cmake treesitter sources
+7f19e7695fb12788ab0055c36538ea78de6c20a9 9f4c15dc01d35767829ee923d1aa7a4d4cc24c40 Re'em Kishinevsky <Re'em Kishinevsky> 1729162940 +0300	commit: colorscheme tweaks
+9f4c15dc01d35767829ee923d1aa7a4d4cc24c40 a0243dc8ba191c59b2a5686547363fb1cebfa15f Re'em Kishinevsky <Re'em Kishinevsky> 1729163758 +0300	commit: bump
+a0243dc8ba191c59b2a5686547363fb1cebfa15f 99c73acd4fcedf57e9bc3ebeb333cd81ca3c4b10 Re'em Kishinevsky <Re'em Kishinevsky> 1730238642 +0200	commit: bump
+99c73acd4fcedf57e9bc3ebeb333cd81ca3c4b10 8b9b47bc636c52db5ef5c8dd0fd3723b23d86151 Re'em Kishinevsky <Re'em Kishinevsky> 1730244440 +0200	commit: better way to open help vertically
+8b9b47bc636c52db5ef5c8dd0fd3723b23d86151 db976601cdc04eea7f3e297a122a10c57db6bb17 Re'em Kishinevsky <Re'em Kishinevsky> 1730244467 +0200	commit: formatting
+db976601cdc04eea7f3e297a122a10c57db6bb17 706564b92e5137cbd944497025ce2cc72b4ef4e3 Re'em Kishinevsky <Re'em Kishinevsky> 1730571216 +0200	commit: update
+706564b92e5137cbd944497025ce2cc72b4ef4e3 706564b92e5137cbd944497025ce2cc72b4ef4e3 Re'em Kishinevsky <Re'em Kishinevsky> 1739045565 +0200	checkout: moving from dev to dev
+706564b92e5137cbd944497025ce2cc72b4ef4e3 706564b92e5137cbd944497025ce2cc72b4ef4e3 Re'em Kishinevsky <Re'em Kishinevsky> 1741342519 +0200	checkout: moving from dev to 706564b
+706564b92e5137cbd944497025ce2cc72b4ef4e3 706564b92e5137cbd944497025ce2cc72b4ef4e3 Re'em Kishinevsky <Re'em Kishinevsky> 1741342534 +0200	checkout: moving from 706564b92e5137cbd944497025ce2cc72b4ef4e3 to dev
+706564b92e5137cbd944497025ce2cc72b4ef4e3 d94dc475c285cfe41b2c8b1e93e3917e1be6f08f Re'em Kishinevsky <Re'em Kishinevsky> 1741434742 +0200	commit: update blink
+d94dc475c285cfe41b2c8b1e93e3917e1be6f08f 66805797f41e1de60409ace0ed873df62f2a38f5 Re'em Kishinevsky <Re'em Kishinevsky> 1743854040 +0300	commit: remove previous config
+66805797f41e1de60409ace0ed873df62f2a38f5 67163e26909c24b24522d6b0bdf573842f2dfc82 Re'em Kishinevsky <Re'em Kishinevsky> 1748093920 +0300	commit: comit
+67163e26909c24b24522d6b0bdf573842f2dfc82 7a9172f949a95eb83817744f774b85602f0d5928 Re'em Kishinevsky <Re'em Kishinevsky> 1748134865 +0300	commit: fix deprecated func
+7a9172f949a95eb83817744f774b85602f0d5928 560a2a2fb3ef8442bf18da5d4fa337cd3fee949c Re'em Kishinevsky <Re'em Kishinevsky> 1748135191 +0300	commit: add yazi
+560a2a2fb3ef8442bf18da5d4fa337cd3fee949c c1577927b495bc39e9ea329b6a6a03cd2fb7adb6 Re'em Kishinevsky <Re'em Kishinevsky> 1748135198 +0300	commit: add quickfile
+c1577927b495bc39e9ea329b6a6a03cd2fb7adb6 b5af71129636afae5770b00a9430ec93ea5f53e6 Re'em Kishinevsky <Re'em Kishinevsky> 1748135470 +0300	commit: fix log
+b5af71129636afae5770b00a9430ec93ea5f53e6 5ac3b40b21a2e53156e89ebaecd229d3a434cda8 Re'em Kishinevsky <Re'em Kishinevsky> 1748135493 +0300	commit: tweak lua
+5ac3b40b21a2e53156e89ebaecd229d3a434cda8 a01475425828d2accfafa409a663f82602713fd4 Re'em Kishinevsky <Re'em Kishinevsky> 1748135498 +0300	commit: update lazy-lock
+a01475425828d2accfafa409a663f82602713fd4 4e039cd53de897813d592c68a7160b5a40ba1909 Re'em Kishinevsky <Re'em Kishinevsky> 1748185461 +0300	commit: add toggle
+4e039cd53de897813d592c68a7160b5a40ba1909 4e02a18a2a30b576682056159e5a9c47d03c5615 Re'em Kishinevsky <Re'em Kishinevsky> 1748185480 +0300	commit: update lazy
+4e02a18a2a30b576682056159e5a9c47d03c5615 a9211e869bb7a878db55c6c6ad3854b8ddb4ae25 Re'em Kishinevsky <Re'em Kishinevsky> 1748190163 +0300	commit: remove nvim-spectre
+a9211e869bb7a878db55c6c6ad3854b8ddb4ae25 373104c72115cb17634ae3f4c4383d6f79e16e7e Re'em Kishinevsky <Re'em Kishinevsky> 1748374066 +0300	commit: remove miniindentscope
+373104c72115cb17634ae3f4c4383d6f79e16e7e df2a323b9a8f13506466a1f033b3aed161e1b8c6 Re'em Kishinevsky <Re'em Kishinevsky> 1748374081 +0300	commit: remove spam
+df2a323b9a8f13506466a1f033b3aed161e1b8c6 f4dedb0890e3690b3a46d3ccc36d7e719f49b948 Re'em Kishinevsky <Re'em Kishinevsky> 1748374103 +0300	commit: conform uses cf not lf
+f4dedb0890e3690b3a46d3ccc36d7e719f49b948 36306c6ecdb7eed1325b8dc55b19b52e696b650d Re'em Kishinevsky <Re'em Kishinevsky> 1748374116 +0300	commit: remove spam add newfile keymap
+36306c6ecdb7eed1325b8dc55b19b52e696b650d 08e1f78eb982aab22771bb2b87c375f08df2e727 Re'em Kishinevsky <Re'em Kishinevsky> 1748400085 +0300	commit: remove lspsettings
+08e1f78eb982aab22771bb2b87c375f08df2e727 ee546d23b9bf8058aac8524adbf8bb0aef0673a2 Re'em Kishinevsky <Re'em Kishinevsky> 1748400104 +0300	commit: remove misc
+ee546d23b9bf8058aac8524adbf8bb0aef0673a2 687c9393fb59fa904edd907316c3327cad0c3fbb Re'em Kishinevsky <Re'em Kishinevsky> 1748400150 +0300	commit: rename settings -> options
+687c9393fb59fa904edd907316c3327cad0c3fbb 63a67945c8ca6ccc8cd4ce8548a9248986a3142e Re'em Kishinevsky <Re'em Kishinevsky> 1748406696 +0300	commit: remove mini-cursorword
+63a67945c8ca6ccc8cd4ce8548a9248986a3142e cd6973349d31b139179728cb5a3ef64e2baa2632 Re'em Kishinevsky <Re'em Kishinevsky> 1748465543 +0300	commit: use which-key instead of mini-clue
+cd6973349d31b139179728cb5a3ef64e2baa2632 1f6862ba7cb4661f4fc689e4aa54a45d3e71f530 Re'em Kishinevsky <Re'em Kishinevsky> 1748465548 +0300	commit: add Util
+1f6862ba7cb4661f4fc689e4aa54a45d3e71f530 084baf4574231014b00d628f20769edf04bb7ada Re'em Kishinevsky <Re'em Kishinevsky> 1748465551 +0300	commit: update lock
+084baf4574231014b00d628f20769edf04bb7ada 4c7d8540db4b25aa4ea61a2fa8ed7ef3ddea8916 Re'em Kishinevsky <Re'em Kishinevsky> 1748602206 +0300	commit: add cpp afterplugin
+4c7d8540db4b25aa4ea61a2fa8ed7ef3ddea8916 09ac492e28ff6842c01753f117c9cf4fffaa44e0 Re'em Kishinevsky <Re'em Kishinevsky> 1748602212 +0300	commit: tweak
+09ac492e28ff6842c01753f117c9cf4fffaa44e0 00fc119f4c79048e2bf789db141553827c78e685 Re'em Kishinevsky <Re'em Kishinevsky> 1748602216 +0300	commit (amend): tweak
+00fc119f4c79048e2bf789db141553827c78e685 d4a7ee0d20050d0421bc9b29dcf46cebc0277216 Re'em Kishinevsky <Re'em Kishinevsky> 1748602236 +0300	commit: add gitignore
+d4a7ee0d20050d0421bc9b29dcf46cebc0277216 657059e8a4486a9a314dfdda168f52572dec863d Re'em Kishinevsky <Re'em Kishinevsky> 1748602256 +0300	commit: update lazylock
+657059e8a4486a9a314dfdda168f52572dec863d e38f9561173407a1b141dd607c12ccd43ef1c8b4 Re'em Kishinevsky <Re'em Kishinevsky> 1748794054 +0300	commit: remove C-q to quit
+e38f9561173407a1b141dd607c12ccd43ef1c8b4 5685cd5d5035b5bca118c1a84cfbe4c9383bc595 Re'em Kishinevsky <Re'em Kishinevsky> 1748794064 +0300	commit: add <leader>l to open Lazy
+5685cd5d5035b5bca118c1a84cfbe4c9383bc595 5f7c079a346d050cbdfcebccac83ad704a467214 Re'em Kishinevsky <Re'em Kishinevsky> 1748859079 +0300	commit: add <leader>qq to quit
+5f7c079a346d050cbdfcebccac83ad704a467214 c42a29ddd419de29d409f9ab886954e2bde8191e Re'em Kishinevsky <Re'em Kishinevsky> 1748859111 +0300	commit (amend): add <leader>qq to quit
+c42a29ddd419de29d409f9ab886954e2bde8191e 1a4d38ae34cf63b9b2461b5d1e39a77563052486 Re'em Kishinevsky <Re'em Kishinevsky> 1748859124 +0300	commit (amend): add <leader>qq to quit
+1a4d38ae34cf63b9b2461b5d1e39a77563052486 6652fb1c693b284a5fb713440fe3bc715d746aa2 Re'em Kishinevsky <Re'em Kishinevsky> 1748859130 +0300	commit: add overseer.nvim
+6652fb1c693b284a5fb713440fe3bc715d746aa2 81e18c54467765c2d9bfe77ed3274cdd51c09140 Re'em Kishinevsky <Re'em Kishinevsky> 1748859143 +0300	commit: add noice.nvim
+81e18c54467765c2d9bfe77ed3274cdd51c09140 05b979ff2117faa7f1d381bc478d68dd853a7425 Re'em Kishinevsky <Re'em Kishinevsky> 1748859764 +0300	commit: add config.lspmaps instead of setting mappings in lspconfig plugin
+05b979ff2117faa7f1d381bc478d68dd853a7425 b35f5b10d189df14e253df0f3e677f6281c47ebd Re'em Kishinevsky <Re'em Kishinevsky> 1748859773 +0300	commit: add inc-rename and upadte lazy lock
+b35f5b10d189df14e253df0f3e677f6281c47ebd 36f9d7b7eae043fb9dbdf3eb3ec2f570bb1f37e0 Re'em Kishinevsky <Re'em Kishinevsky> 1748883814 +0300	commit: global statusline
+36f9d7b7eae043fb9dbdf3eb3ec2f570bb1f37e0 60c4dcd0d5f422dccd8ed4aa4865843a94354db4 Re'em Kishinevsky <Re'em Kishinevsky> 1748883820 +0300	commit: add cellular automaton for fun
+60c4dcd0d5f422dccd8ed4aa4865843a94354db4 45fc2b1e293904ffdabe8ac9f8121239fba7c49f Re'em Kishinevsky <Re'em Kishinevsky> 1748883827 +0300	commit: deprecate mini clue
+45fc2b1e293904ffdabe8ac9f8121239fba7c49f c2cf1261f69f1dc5a1681c2d5b4a540e5886a94d Re'em Kishinevsky <Re'em Kishinevsky> 1748883831 +0300	commit: format mini files
+c2cf1261f69f1dc5a1681c2d5b4a540e5886a94d f913fbf2630e7d0eef8f8e1c4ef933f886b682d9 Re'em Kishinevsky <Re'em Kishinevsky> 1748883853 +0300	commit: deprecate mini statusline
+f913fbf2630e7d0eef8f8e1c4ef933f886b682d9 b6c933470c6fe6a55e35a0a5770ec9a3bee819b5 Re'em Kishinevsky <Re'em Kishinevsky> 1748883883 +0300	commit: tweak noice
+b6c933470c6fe6a55e35a0a5770ec9a3bee819b5 0093df72303dc3b4fdb215574e47d540c6c45400 Re'em Kishinevsky <Re'em Kishinevsky> 1748883893 +0300	commit: add lualine and path utils
+0093df72303dc3b4fdb215574e47d540c6c45400 08a0576da693d42ea6794a94b34161cfb322d2ac Re'em Kishinevsky <Re'em Kishinevsky> 1748883901 +0300	commit (amend): add lualine and path utils
+08a0576da693d42ea6794a94b34161cfb322d2ac 77627582851d2a809577f5922d1cc971caf08ce1 Re'em Kishinevsky <Re'em Kishinevsky> 1748885587 +0300	commit: hide cellular automaton keymap
+77627582851d2a809577f5922d1cc971caf08ce1 021f5491f64d2ffbbf6aa37b21b32b23c64a385c Re'em Kishinevsky <Re'em Kishinevsky> 1749230563 +0300	commit: add man ftplugin
+021f5491f64d2ffbbf6aa37b21b32b23c64a385c 66659238edc75e3b899dc7b49ead2b2844e5a9ed Re'em Kishinevsky <Re'em Kishinevsky> 1749230568 +0300	commit: add c lang
+66659238edc75e3b899dc7b49ead2b2844e5a9ed 2c51266e5a8e6b66ff294ec91d5b622487514c1f Re'em Kishinevsky <Re'em Kishinevsky> 1749230575 +0300	commit: add lualine
+2c51266e5a8e6b66ff294ec91d5b622487514c1f 58557ef63276855d657f89497a6cbc6a6373ddbc Re'em Kishinevsky <Re'em Kishinevsky> 1749280588 +0300	commit: customize lualine colors
+58557ef63276855d657f89497a6cbc6a6373ddbc b345cf22fcec5241671b5ef356845ebc2fa21e88 Re'em Kishinevsky <Re'em Kishinevsky> 1749280595 +0300	commit: lualine: remove date
+b345cf22fcec5241671b5ef356845ebc2fa21e88 e236ac8587a36a2f2f3b4bcc8f178e9e6018ab1d Re'em Kishinevsky <Re'em Kishinevsky> 1749280603 +0300	commit: fixup! customize lualine colors
+e236ac8587a36a2f2f3b4bcc8f178e9e6018ab1d 2c51266e5a8e6b66ff294ec91d5b622487514c1f Re'em Kishinevsky <Re'em Kishinevsky> 1749280603 +0300	rebase (start): checkout 2c51266e5a8e6b66ff294ec91d5b622487514c1f
+2c51266e5a8e6b66ff294ec91d5b622487514c1f 58557ef63276855d657f89497a6cbc6a6373ddbc Re'em Kishinevsky <Re'em Kishinevsky> 1749280603 +0300	rebase: fast-forward
+58557ef63276855d657f89497a6cbc6a6373ddbc 115d71fdcc8e89aa863ab38a9791a2317f4b7ee4 Re'em Kishinevsky <Re'em Kishinevsky> 1749280603 +0300	rebase (fixup): customize lualine colors
+115d71fdcc8e89aa863ab38a9791a2317f4b7ee4 bed2e61517f03602c45841c9fd945ab8ec76531d Re'em Kishinevsky <Re'em Kishinevsky> 1749280603 +0300	rebase (pick): lualine: remove date
+bed2e61517f03602c45841c9fd945ab8ec76531d bed2e61517f03602c45841c9fd945ab8ec76531d Re'em Kishinevsky <Re'em Kishinevsky> 1749280603 +0300	rebase (finish): returning to refs/heads/dev
+bed2e61517f03602c45841c9fd945ab8ec76531d 3ae17e2f0e10510544c38ce0c6a74b4eff753485 Re'em Kishinevsky <Re'em Kishinevsky> 1749331396 +0300	commit: add mini-statusline
+3ae17e2f0e10510544c38ce0c6a74b4eff753485 4d0a1372549df8f6eb6941c8874fae1367e5c3f8 Re'em Kishinevsky <Re'em Kishinevsky> 1749340504 +0300	commit: remove spam
+4d0a1372549df8f6eb6941c8874fae1367e5c3f8 1ca5e6961357cf5e8975d6dbacec12e2409552e6 Re'em Kishinevsky <Re'em Kishinevsky> 1749340516 +0300	commit: start replacing lualine with mini.statusline
+1ca5e6961357cf5e8975d6dbacec12e2409552e6 a735bbf505e890473a8a5bfe91f9528a28a0e74b Re'em Kishinevsky <Re'em Kishinevsky> 1749340525 +0300	commit: succint git status component
+a735bbf505e890473a8a5bfe91f9528a28a0e74b 38f0504898a410f6af543dc52787e377c70c9196 Re'em Kishinevsky <Re'em Kishinevsky> 1749340545 +0300	commit: add tpipeline for merging Neovim and Tmux status lines
+38f0504898a410f6af543dc52787e377c70c9196 d76e0536b7be84c7726be27a3f5325fc07a9b090 Re'em Kishinevsky <Re'em Kishinevsky> 1749340558 +0300	commit: update lazy lock
+d76e0536b7be84c7726be27a3f5325fc07a9b090 a96b6cd3add86acf0ca91bbfb9b738496cd31d0b Re'em Kishinevsky <Re'em Kishinevsky> 1749422517 +0300	commit: tpipeline: add autocmmand for recording
+a96b6cd3add86acf0ca91bbfb9b738496cd31d0b d74d60a7ebc26454dcbf43d4c8bd6326a096d54a Re'em Kishinevsky <Re'em Kishinevsky> 1749422582 +0300	commit: use mini statusline instead of lualine
+d74d60a7ebc26454dcbf43d4c8bd6326a096d54a bc1f709a7a6a2859532f7717de67f92689f052ac Re'em Kishinevsky <Re'em Kishinevsky> 1749422588 +0300	commit: update lazy lock
+bc1f709a7a6a2859532f7717de67f92689f052ac 6a1ba1d21a0a323fb3d2623bb957f0cbb6132da2 Re'em Kishinevsky <Re'em Kishinevsky> 1749422892 +0300	commit: tweak
+6a1ba1d21a0a323fb3d2623bb957f0cbb6132da2 764541730d9aeffdded088342a9165157069ad3e Re'em Kishinevsky <Re'em Kishinevsky> 1749422901 +0300	commit (amend): tweak
+764541730d9aeffdded088342a9165157069ad3e fca0bb4c47bb107be0a032b0fabd2eb356d6badd Re'em Kishinevsky <Re'em Kishinevsky> 1749422907 +0300	checkout: moving from dev to master
+fca0bb4c47bb107be0a032b0fabd2eb356d6badd 764541730d9aeffdded088342a9165157069ad3e Re'em Kishinevsky <Re'em Kishinevsky> 1749422915 +0300	checkout: moving from master to dev
+764541730d9aeffdded088342a9165157069ad3e fca0bb4c47bb107be0a032b0fabd2eb356d6badd Re'em Kishinevsky <Re'em Kishinevsky> 1749422925 +0300	checkout: moving from dev to master
+fca0bb4c47bb107be0a032b0fabd2eb356d6badd 764541730d9aeffdded088342a9165157069ad3e Re'em Kishinevsky <Re'em Kishinevsky> 1749422933 +0300	checkout: moving from master to dev
+764541730d9aeffdded088342a9165157069ad3e 23c29b551e414fcc3f8a859fc49130f6a7d20a61 Re'em Kishinevsky <Re'em Kishinevsky> 1751012634 +0300	commit: fixed bug in statusline diff section
+23c29b551e414fcc3f8a859fc49130f6a7d20a61 3a4fbb3302917b533682cadee0a4fe94e750d3a2 Re'em Kishinevsky <Re'em Kishinevsky> 1751049397 +0300	commit: proper spacing in statusline diagnostics
+3a4fbb3302917b533682cadee0a4fe94e750d3a2 a3fa575811162aa122e9619be6fa213973b4f2ae Re'em Kishinevsky <Re'em Kishinevsky> 1751049410 +0300	commit: use icon for statusline recording macro msg
+a3fa575811162aa122e9619be6fa213973b4f2ae 01ce310e175d50f0d11c0bc702cf1806d49e4a26 Re'em Kishinevsky <Re'em Kishinevsky> 1751049419 +0300	commit: update lazy lock
+01ce310e175d50f0d11c0bc702cf1806d49e4a26 b8f515988f183c2ad4ed9d707e83fe0ce2f251f3 Re'em Kishinevsky <Re'em Kishinevsky> 1751049428 +0300	commit: tweak
+b8f515988f183c2ad4ed9d707e83fe0ce2f251f3 779b2b1b0f583f3293195cfa83260cfebc351efb Re'em Kishinevsky <Re'em Kishinevsky> 1751049440 +0300	commit: statusline tweaks
+779b2b1b0f583f3293195cfa83260cfebc351efb 950f75a77a8546ceb0a1e554c99d333fd4bb456d Re'em Kishinevsky <Re'em Kishinevsky> 1751049449 +0300	commit: tpipeline more responsive
+950f75a77a8546ceb0a1e554c99d333fd4bb456d 1c6b89a08bd292aa6a65598a3994d160d24195df Re'em Kishinevsky <Re'em Kishinevsky> 1758363112 +0300	commit: move lazy to core
+1c6b89a08bd292aa6a65598a3994d160d24195df bf53be8357c0f20f4848f32dd176f630291def74 Re'em Kishinevsky <Re'em Kishinevsky> 1758363117 +0300	commit: disable swapfile
+bf53be8357c0f20f4848f32dd176f630291def74 596ef9190d85898d8ad72bc0d354feaac3df3567 Re'em Kishinevsky <Re'em Kishinevsky> 1758363125 +0300	commit: remove spam
+596ef9190d85898d8ad72bc0d354feaac3df3567 dcb1d2076ee6deb826dd9fd3d857594cb1747c37 Re'em Kishinevsky <Re'em Kishinevsky> 1758363131 +0300	commit: add shellcheck lang
+dcb1d2076ee6deb826dd9fd3d857594cb1747c37 1378c7f6c6d4db2e0ba47598ceb15f7e5c6fe104 Re'em Kishinevsky <Re'em Kishinevsky> 1758363152 +0300	commit: spam
+1378c7f6c6d4db2e0ba47598ceb15f7e5c6fe104 fe67a6002bda573f4e7f9022b94efacac1c258ba Re'em Kishinevsky <Re'em Kishinevsky> 1758363157 +0300	commit: fixup! move lazy to core
+fe67a6002bda573f4e7f9022b94efacac1c258ba 950f75a77a8546ceb0a1e554c99d333fd4bb456d Re'em Kishinevsky <Re'em Kishinevsky> 1758363157 +0300	rebase (start): checkout 950f75a77a8546ceb0a1e554c99d333fd4bb456d
+950f75a77a8546ceb0a1e554c99d333fd4bb456d 1c6b89a08bd292aa6a65598a3994d160d24195df Re'em Kishinevsky <Re'em Kishinevsky> 1758363157 +0300	rebase: fast-forward
+1c6b89a08bd292aa6a65598a3994d160d24195df e1b354cb1e2b8bb009c41b1a23e956a71f769acf Re'em Kishinevsky <Re'em Kishinevsky> 1758363157 +0300	rebase (fixup): move lazy to core
+e1b354cb1e2b8bb009c41b1a23e956a71f769acf a30cf86a776e589054bc11887993c0db9b59698d Re'em Kishinevsky <Re'em Kishinevsky> 1758363157 +0300	rebase (pick): disable swapfile
+a30cf86a776e589054bc11887993c0db9b59698d e5e695d57e0c4d043e9805254a17c64aa0bb0f7f Re'em Kishinevsky <Re'em Kishinevsky> 1758363157 +0300	rebase (pick): remove spam
+e5e695d57e0c4d043e9805254a17c64aa0bb0f7f baabfb5381cbd679d8407187b0a005d40b7ad4b5 Re'em Kishinevsky <Re'em Kishinevsky> 1758363157 +0300	rebase (pick): add shellcheck lang
+baabfb5381cbd679d8407187b0a005d40b7ad4b5 905c7c2151fa980af0270527cc163b697a8e58e0 Re'em Kishinevsky <Re'em Kishinevsky> 1758363157 +0300	rebase (pick): spam
+905c7c2151fa980af0270527cc163b697a8e58e0 905c7c2151fa980af0270527cc163b697a8e58e0 Re'em Kishinevsky <Re'em Kishinevsky> 1758363157 +0300	rebase (finish): returning to refs/heads/dev
+905c7c2151fa980af0270527cc163b697a8e58e0 eb2ed070b12a1e216165ce56a9f00d14ae76b383 Re'em Kishinevsky <Re'em Kishinevsky> 1758368651 +0300	commit: use Util.lsp.code_action to filter always-present code actions
+eb2ed070b12a1e216165ce56a9f00d14ae76b383 4ca2ea206936f2c5d866b038398feca1f8c4d39b Re'em Kishinevsky <Re'em Kishinevsky> 1758368745 +0300	commit: remove spam from noice - use it only for pretty cmdline
+4ca2ea206936f2c5d866b038398feca1f8c4d39b a144ca82e7b7902c74c19ebfb0d8273d80050a49 Re'em Kishinevsky <Re'em Kishinevsky> 1758368756 +0300	commit: use newer lsp syntax
+a144ca82e7b7902c74c19ebfb0d8273d80050a49 e80b41cec2c40e4530e0f502ad93745b6f22595b Re'em Kishinevsky <Re'em Kishinevsky> 1758369724 +0300	commit: remove telescope in favour of snacks.picker
+e80b41cec2c40e4530e0f502ad93745b6f22595b 1d2f089bad3a7461f108f41ea11f77ba2c9201bd Re'em Kishinevsky <Re'em Kishinevsky> 1758369789 +0300	commit: update snacks config

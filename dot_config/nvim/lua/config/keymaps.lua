@@ -41,14 +41,16 @@ map("n", "<C-l>", ":NavigatorRight<CR>")
 map("n", "<C-tab>", ":NavigatorPrevious<CR>")
 
 -- Traditional editor keymaps.
-map({ "n", "i" }, "<C-s>", "<CMD>confirm write<CR>") -- save
-map({ "n", "i" }, "<C-q>", "<CMD>confirm quit<CR>") -- quit
+map({ "i", "x", "n", "s" }, "<C-s>", "<CMD>confirm write<CR>", { desc = "Save File" })
 
 -- New file
 map("n", "<leader>fn", "<cmd>enew<cr>", { desc = "New File" })
 
 -- X shows diagnostics
 map("n", "X", vim.diagnostic.open_float)
+
+-- lazy
+map("n", "<leader>l", "<cmd>Lazy<cr>", { desc = "Lazy" })
 
 -- Stay in visual mode when readjusting indentation.
 map("v", "<", "<gv")
